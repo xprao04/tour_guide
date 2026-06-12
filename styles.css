@@ -390,9 +390,6 @@ a { color: inherit; text-decoration: none; }
 
     /* nudge the whole hero block (text + buttons + glow) up a little on mobile */
     .hero-inner { transform: translateY(-6vh); }
-
-    /* crop the hero photo from the top on mobile so the towers/rooftops sit behind the text */
-    .hero { background-position: top center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
