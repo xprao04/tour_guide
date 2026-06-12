@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Private guided tours of Prague with Jana — a local licensed tour guide. Discover the city's history, hidden corners, and stories.">
+    <title>Jana — Tour Guide in Prague</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#hero" class="logo">Jana<span>Prague Tours</span></a>
+            <nav class="nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#tours">Tours</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container hero-inner">
+            <p class="eyebrow">Licensed local guide</p>
+            <h1>Discover Prague through<br>the eyes of a local</h1>
+            <p class="lead">Hi, I'm Jana — a passionate Prague tour guide. Let me show you the city's history, hidden corners, and the stories most visitors never hear.</p>
+            <div class="hero-buttons">
+                <a href="#tours" class="btn">Book a tour</a>
+                <a href="#about" class="btn">About Jana</a>
+                <a href="#contact" class="btn">Contact</a>
+                <a href="#references" class="btn">References</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2>About Jana</h2>
+            <div class="about-grid">
+                <div class="about-photo" aria-hidden="true">Photo</div>
+                <div class="about-text">
+                    <p>I've spent years walking these cobblestone streets and I never tire of them. Born and raised near Prague, I know the city not as a checklist of monuments but as a living place full of stories.</p>
+                    <p>Whether it's your first visit or your tenth, I tailor every tour to what you're curious about — history, architecture, food, or simply the best spot to watch the sunset over the rooftops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours -->
+    <section class="section section-alt" id="tours">
+        <div class="container">
+            <h2>Tours</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Old Town &amp; Charles Bridge</h3>
+                    <p>The classic heart of Prague — the Astronomical Clock, winding lanes, and the legends behind Charles Bridge.</p>
+                </article>
+                <article class="card">
+                    <h3>Prague Castle &amp; Lesser Town</h3>
+                    <p>Explore the largest ancient castle complex in the world and the charming streets below it.</p>
+                </article>
+                <article class="card">
+                    <h3>Hidden Prague</h3>
+                    <p>Quiet courtyards, local cafés, and the corners of the city only locals know about.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price list -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <h2>Price list</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Half-day tour</h3>
+                    <p>Up to 3 hours, tailored to your interests.</p>
+                    <p class="price">from €120</p>
+                </article>
+                <article class="card">
+                    <h3>Full-day tour</h3>
+                    <p>Up to 6 hours, a deep dive into the city.</p>
+                    <p class="price">from €220</p>
+                </article>
+                <article class="card">
+                    <h3>Custom tour</h3>
+                    <p>Tell me what you'd like to see — we'll plan it together.</p>
+                    <p class="price">on request</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container contact-inner">
+            <h2>Get in touch</h2>
+            <p class="lead">Planning a visit to Prague? Reach out and let's arrange the perfect tour for you.</p>
+            <ul class="contact-list">
+                <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                <li><a href="tel:+420000000000">+420 000 000 000</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- References -->
+    <section class="section" id="references">
+        <div class="container">
+            <h2>References</h2>
+            <div class="cards">
+                <article class="card">
+                    <p>"Jana made our trip to Prague unforgettable — so knowledgeable and warm. Highly recommended!"</p>
+                    <h3>— Maria, Portugal</h3>
+                </article>
+                <article class="card">
+                    <p>"The best guide we've ever had. She showed us a side of Prague we'd never have found alone."</p>
+                    <h3>— James, UK</h3>
+                </article>
+                <article class="card">
+                    <p>"Friendly, professional, and full of fascinating stories. We learned so much in just a few hours."</p>
+                    <h3>— Anna &amp; Tom, Germany</h3>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo gallery -->
+    <section class="section section-alt" id="gallery">
+        <div class="container">
+            <h2 class="gallery-title">The beauty of Prague</h2>
+        </div>
+        <div class="gallery">
+            <button class="gallery-arrow gallery-prev" id="galleryPrev" aria-label="Previous photos">&#8249;</button>
+            <div class="gallery-track" id="galleryTrack">
+                <figure class="photo"><img src="denis-poltoradnev-wg2RssI1a-8-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="ilia-bronskiy-6KnjC4Z-Pew-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="mikhail-mamaev-3WmodS_pGJE-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="ilia-bronskiy-IjYnbHQIU3o-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="loriane-pierre-UqB3z1bHJwg-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="eduard-delputte-nxtT1J3YVEc-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="patrick-pahlke-CQ2Acoqigd0-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="sinisa-lekovic-yyx2uLHbNFI-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="ilia-bronskiy-xMlVUVEpddA-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+                <figure class="photo"><img src="jiri-hajek-cTkmpdx1OTw-unsplash.jpg" alt="Prague tour" loading="lazy"></figure>
+            </div>
+            <button class="gallery-arrow gallery-next" id="galleryNext" aria-label="Next photos">&#8250;</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Jana — Prague Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Photo gallery arrows
+        (function () {
+            var track = document.getElementById('galleryTrack');
+            if (!track) return;
+            function step() {
+                var first = track.querySelector('.photo');
+                var gap = parseFloat(getComputedStyle(track).gap) || 0;
+                return first ? first.getBoundingClientRect().width + gap : track.clientWidth * 0.8;
+            }
+            document.getElementById('galleryPrev').addEventListener('click', function () {
+                track.scrollBy({ left: -step(), behavior: 'smooth' });
+            });
+            document.getElementById('galleryNext').addEventListener('click', function () {
+                track.scrollBy({ left: step(), behavior: 'smooth' });
+            });
+        })();
+    </script>
+</body>
+</html>
